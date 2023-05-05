@@ -1,4 +1,4 @@
-# _TO DO LIST APPLICATION_
+<!-- # _TO DO LIST APPLICATION_
 
 #### _{This application is designed to save a list of user's task}_
 
@@ -35,4 +35,4 @@ _{MIT}_
 
 ## Contact Information
 
-_{07081714922}}_
+_{07081714922}}_ -->
