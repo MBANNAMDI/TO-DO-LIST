@@ -72,7 +72,7 @@ $(document).ready(function () {
     attachTaskListeners();
     $("form#new-task").submit(function (event) {
         event.preventDefault();
-        const inputtedEvent = $("input#event").val();
+        const inputtedEvent = $("input#event").val()
         const inputtedDate = $("input#date").val();
         const inputtedTime = $("input#time").val();
 
