@@ -1,0 +1,16 @@
+body{
+  background: rgb(221, 246, 241);
+}
+.container{
+background:linear-gradient(purple,rgb(61, 61, 116));
+height: 46rem;
+color: rgb(215, 241, 250);
+}
+h1{
+  margin-left: 5%;
+}
+#show-task {
+    display: none;
+    margin-left: 5%;
+  }
+ 
