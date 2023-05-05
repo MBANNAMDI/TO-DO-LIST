@@ -66,24 +66,24 @@ function showTask(taskId) {
     buttons.append("<button class='btn btn-primary' id=" + + task.id + ">Delete</button>");
 }
 // User Interface Logic ---------
-// let list = new TODOLIST();
+let list = new TODOLIST();
 
-// $(document).ready(function () {
-//     attachTaskListeners();
-//     $("form#new-task").submit(function (event) {
-//         event.preventDefault();
-//         const inputtedEvent = $("input#event").val();
-//         const inputtedDate = $("input#date").val();
-//         const inputtedTime = $("input#time").val();
+$(document).ready(function () {
+    attachTaskListeners();
+    $("form#new-task").submit(function (event) {
+        event.preventDefault();
+        const inputtedEvent = $("input#event").val();
+        const inputtedDate = $("input#date").val();
+        const inputtedTime = $("input#time").val();
 
-//         // The next three lines are new:
-//         // $("input#new-first-name").val("");
-//         // $("input#new-last-name").val("");
-//         // $("input#new-phone-number").val("");
+        // The next three lines are new:
+        // $("input#new-first-name").val("");
+        // $("input#new-last-name").val("");
+        // $("input#new-phone-number").val("");
 
-//         let newTask = new Task(inputtedEvent, inputtedDate, inputtedTime);
-//         list.addList(newTask);
-//         displayTaskDetails(list);
-//     });
-// });
+        let newTask = new Task(inputtedEvent, inputtedDate, inputtedTime);
+        list.addList(newTask);
+        displayTaskDetails(list);
+    });
+});
 
