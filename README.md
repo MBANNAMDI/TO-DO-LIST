@@ -14,7 +14,7 @@
 
 ## Description
 
-_{This application allows user to input tasks to been done then it is . }_
+_{This application allows user to input tasks to been done then it is saved to serve as a reminder later . }_
 
 ## Setup/Installation Requirements
 
